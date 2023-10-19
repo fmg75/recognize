@@ -23,7 +23,7 @@ def Distancia(caracteristicas, embedding):
     return sorted_distances[0][0], sorted_distances[0][1].item()
 
 # Crear una aplicación Streamlit
-st.title("Reconocimiento Facial")
+st.title("A que celebrity te pareces ?")
 
 # Agregar un botón para cargar una imagen
 uploaded_image = st.file_uploader("Cargar una imagen", type=["jpg", "png", "jpeg"])
